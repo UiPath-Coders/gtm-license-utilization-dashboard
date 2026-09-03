@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "dashboardName": "Snowflake License Utilization Dashboard",
+  "dashboardDescription": "Customer-level license capacity and utilization from UiPath Data Fabric.",
+  "timeRange": "30d",
+  "projectDir": ".",
+  "routingName": "snowflake-license-utilization-dashboard-k7m2",
+  "orgName": "uipathtechnicalaccountmanagementteam",
+  "tenantName": "Development",
+  "cloudUrl": "https://cloud.uipath.com",
+  "apiUrl": "https://api.uipath.com",
+  "clientId": "60748a80-3b07-40d8-89c0-ad8972fc1441",
+  "scopes": "DataFabric.Schema.Read DataFabric.Data.Read DataFabric.Data.Write",
+  "metrics": [
+    {
+      "name": "customer-license-utilization",
+      "tier": "T3",
+      "title": "Customer License Utilization",
+      "displayAs": "data-table",
+      "subtitle": "Current license utilization by customer and category",
+      "columns": [
+        { "key": "customerName", "label": "Customer Name" },
+        { "key": "licenseCode", "label": "Customer License ID" },
+        { "key": "subsidiaryId", "label": "Subsidiary ID" },
+        { "key": "category", "label": "Category" },
+        { "key": "purchased", "label": "Purchased", "format": "number", "align": "right" },
+        { "key": "consumedAllocated", "label": "Consumed / Allocated", "format": "number", "align": "right" },
+        { "key": "utilizationPercent", "label": "Utilization %", "format": "percent", "align": "right" }
+      ]
+    }
+  ]
+}

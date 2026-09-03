@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env.local
+.env*.local
+server/external-app-created.json
+server/*.log
+.uipath/
+.dashboard/
+*.log
+/[0-9]*
