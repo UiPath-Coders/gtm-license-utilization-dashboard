@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "license-dashboard-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "snowflake-license-utilization-dashboard-k7m2"],
+      "port": 25173
+    }
+  ]
+}
