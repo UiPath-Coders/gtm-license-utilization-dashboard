@@ -1,5 +1,5 @@
 import { AuthProvider } from "./hooks/useAuth";
-import { LicenseReferenceAdmin } from "./components/admin/LicenseReferenceAdmin";
+import { AdminPortal } from "./components/admin/AdminPortal";
 import { AccessGate } from "./components/admin/AccessGate";
 
 // Deployed as its own, separately-authenticated Coded Web App — deliberately
@@ -14,7 +14,7 @@ export default function App() {
   return (
     <AuthProvider>
       <AccessGate>
-        <LicenseReferenceAdmin
+        <AdminPortal
           onBack={() => {
             window.location.href = DASHBOARD_URL;
           }}

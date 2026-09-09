@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--prefix", "snowflake-license-utilization-dashboard-k7m2"],
       "port": 25173
+    },
+    {
+      "name": "license-reference-admin-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "license-reference-admin-app"],
+      "port": 25174
     }
   ]
 }
