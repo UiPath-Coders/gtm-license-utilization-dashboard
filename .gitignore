@@ -1,3 +1,20 @@
+# Coded apps
 snowflake-license-utilization-dashboard-k7m2/node_modules/
 snowflake-license-utilization-dashboard-k7m2/dist/
 snowflake-license-utilization-dashboard-k7m2/*.log
+snowflake-license-utilization-dashboard-k7m2/.uipath/
+snowflake-license-utilization-dashboard-k7m2/.dashboard/
+
+license-reference-admin-app/node_modules/
+license-reference-admin-app/dist/
+license-reference-admin-app/.uipath/
+
+msi-utilization-app/node_modules/
+msi-utilization-app/dist/
+msi-utilization-app/.uipath/
+
+# UiPath Solution build output / local CLI state
+LicenseUtilizationAutomation/out/
+LicenseUtilizationAutomation/userProfile/
+LicenseUtilizationAutomation/**/.local/
+LicenseUtilizationAutomation/**/*.nupkg

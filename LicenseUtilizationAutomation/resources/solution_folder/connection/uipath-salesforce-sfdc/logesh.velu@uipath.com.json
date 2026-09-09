@@ -1,0 +1,28 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "logesh.velu@uipath.com",
+    "kind": "connection",
+    "type": "uipath-salesforce-sfdc",
+    "apiVersion": "integrationservice.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "connectorName": "Salesforce",
+      "name": "logesh.velu@uipath.com",
+      "authenticationType": "AuthenticateAfterDeployment",
+      "connectorVersion": "1.16.2",
+      "connectorKey": "uipath-salesforce-sfdc",
+      "pollingInterval": 5
+    },
+    "locks": [],
+    "key": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+    "files": []
+  }
+}

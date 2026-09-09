@@ -1,9 +1,9 @@
 {
-  "name": "Snowflake License Utilization Dashboard",
+  "name": "MSI Utilization Submission",
   "scope": "DataFabric.Schema.Read DataFabric.Data.Read DataFabric.Data.Write",
   "clientId": "c8333418-b2c5-4d0b-b14b-0187f087244c",
   "orgName": "tam_global",
   "tenantName": "AMER_COE",
   "baseUrl": "https://staging.uipath.com",
-  "redirectUri": "http://localhost:25173"
+  "redirectUri": "http://localhost:25175"
 }

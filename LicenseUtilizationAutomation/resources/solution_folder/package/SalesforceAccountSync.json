@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "SalesforceAccountSync",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "a23465e5-793c-4cee-963d-8a8e50225a50",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "SalesforceAccountSync"
+    },
+    "locks": [],
+    "key": "352b4bef-cbc9-47cd-9559-95ebcae0b8ed",
+    "files": []
+  }
+}

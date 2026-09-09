@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "Connection",
+      "key": "811fa38a-025c-4259-a660-4d0ab299af33",
+      "activityId": "UpdateDirectoryRecord_1",
+      "activityDisplayName": "Update Directory Record (Renewal + ARR)",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "811fa38a-025c-4259-a660-4d0ab299af33",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "true",
+        "Connector": "uipath-uipath-dataservice",
+        "ActivityName": "Update Directory Record (Renewal + ARR)",
+        "BindingsVersion": "2.2",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "Connection",
+      "key": "d8fda9b2-7a38-4fbc-910d-e49fbed0e4dd",
+      "activityId": "ListAccount_Renewal",
+      "activityDisplayName": "List Accounts (Renewal + ARR)",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "d8fda9b2-7a38-4fbc-910d-e49fbed0e4dd",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "true",
+        "Connector": "uipath-salesforce-sfdc",
+        "ActivityName": "List Accounts (Renewal + ARR)",
+        "BindingsVersion": "2.2",
+        "SolutionsSupport": "true"
+      }
+    }
+  ]
+}

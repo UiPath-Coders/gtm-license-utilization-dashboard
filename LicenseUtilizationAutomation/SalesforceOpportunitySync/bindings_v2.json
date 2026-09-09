@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "Connection",
+      "key": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+      "activityId": "ListOpportunity_ClosedWon",
+      "activityDisplayName": "List Closed Won Opportunities",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "true",
+        "Connector": "uipath-salesforce-sfdc",
+        "ActivityName": "List Closed Won Opportunities",
+        "BindingsVersion": "2.2",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "Connection",
+      "key": "e6566513-4ace-47bb-9321-9b838bedef98",
+      "activityId": "CreateOpportunityDirectory_1",
+      "activityDisplayName": "Create Opportunity Directory Record",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "e6566513-4ace-47bb-9321-9b838bedef98",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "true",
+        "Connector": "uipath-uipath-dataservice",
+        "ActivityName": "Create Opportunity Directory Record",
+        "BindingsVersion": "2.2",
+        "SolutionsSupport": "true"
+      }
+    }
+  ]
+}

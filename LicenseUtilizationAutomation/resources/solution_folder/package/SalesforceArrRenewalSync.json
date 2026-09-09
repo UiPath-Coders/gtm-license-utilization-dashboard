@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "SalesforceArrRenewalSync",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "dbcc1689-b1af-4804-883d-87f683aaa6f5",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "SalesforceArrRenewalSync"
+    },
+    "locks": [],
+    "key": "ea5b5028-84fa-406e-96d4-1b0fca7760bf",
+    "files": []
+  }
+}

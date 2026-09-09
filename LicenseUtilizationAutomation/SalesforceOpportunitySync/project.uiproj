@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Api",
+  "Name": "SalesforceOpportunitySync",
+  "Description": null,
+  "MainFile": "Workflow.json"
+}

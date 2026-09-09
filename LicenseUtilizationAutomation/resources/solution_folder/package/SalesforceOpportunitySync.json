@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "SalesforceOpportunitySync",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "edaa461a-c42e-465e-a869-6dad0339803b",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "SalesforceOpportunitySync"
+    },
+    "locks": [],
+    "key": "573ec8e1-aac3-4058-8a95-58de47ac9fb2",
+    "files": []
+  }
+}

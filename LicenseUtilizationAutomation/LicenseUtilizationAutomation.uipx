@@ -1,0 +1,22 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.10.0",
+  "SolutionId": "cb90173a-662f-4509-bc45-11ada79216d2",
+  "Projects": [
+    {
+      "Type": "Api",
+      "ProjectRelativePath": "SalesforceAccountSync/project.uiproj",
+      "Id": "a23465e5-793c-4cee-963d-8a8e50225a50"
+    },
+    {
+      "Type": "Api",
+      "ProjectRelativePath": "SalesforceOpportunitySync/project.uiproj",
+      "Id": "edaa461a-c42e-465e-a869-6dad0339803b"
+    },
+    {
+      "Type": "Api",
+      "ProjectRelativePath": "SalesforceArrRenewalSync/project.uiproj",
+      "Id": "dbcc1689-b1af-4804-883d-87f683aaa6f5"
+    }
+  ]
+}

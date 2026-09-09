@@ -1,0 +1,79 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "SalesforceArrRenewalSync",
+    "kind": "process",
+    "type": "api",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "dbcc1689-b1af-4804-883d-87f683aaa6f5",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "kind": "package",
+        "name": "SalesforceArrRenewalSync"
+      }
+    ],
+    "runtimeDependencies": [
+      {
+        "bindingType": "Connection",
+        "bindingKey": "811fa38a-025c-4259-a660-4d0ab299af33",
+        "bindingValues": {
+          "connectionId": {
+            "defaultValue": "811fa38a-025c-4259-a660-4d0ab299af33",
+            "isExpression": false
+          }
+        },
+        "bindingMetadata": {
+          "activityName": "Update Directory Record (Renewal + ARR)",
+          "bindingsVersion": "2.2",
+          "solutionsSupport": "true",
+          "connector": "uipath-uipath-dataservice",
+          "useConnectionService": "true"
+        },
+        "resourceKind": "Connection",
+        "resourceType": "uipath-uipath-dataservice"
+      },
+      {
+        "bindingType": "Connection",
+        "bindingKey": "d8fda9b2-7a38-4fbc-910d-e49fbed0e4dd",
+        "bindingValues": {
+          "connectionId": {
+            "defaultValue": "d8fda9b2-7a38-4fbc-910d-e49fbed0e4dd",
+            "isExpression": false
+          }
+        },
+        "bindingMetadata": {
+          "activityName": "List Accounts (Renewal + ARR)",
+          "bindingsVersion": "2.2",
+          "solutionsSupport": "true",
+          "connector": "uipath-salesforce-sfdc",
+          "useConnectionService": "true"
+        },
+        "resourceKind": "Connection",
+        "resourceType": "uipath-salesforce-sfdc"
+      }
+    ],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Api",
+      "name": "SalesforceArrRenewalSync",
+      "package": {
+        "key": "ea5b5028-84fa-406e-96d4-1b0fca7760bf"
+      },
+      "packageName": "LicenseUtilizationAutomation.api.SalesforceArrRenewalSync",
+      "inputArguments": "{}",
+      "targetFrameworkValue": "Portable",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180
+    },
+    "locks": [],
+    "key": "756cc63d-85f8-46a1-b0b2-fcb7d36f9f06",
+    "files": []
+  }
+}

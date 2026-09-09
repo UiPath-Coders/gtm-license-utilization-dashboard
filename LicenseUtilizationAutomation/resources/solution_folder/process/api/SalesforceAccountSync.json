@@ -1,0 +1,84 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "SalesforceAccountSync",
+    "kind": "process",
+    "type": "api",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "a23465e5-793c-4cee-963d-8a8e50225a50",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "kind": "package",
+        "name": "SalesforceAccountSync"
+      }
+    ],
+    "runtimeDependencies": [
+      {
+        "bindingType": "Connection",
+        "bindingKey": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+        "bindingValues": {
+          "connectionId": {
+            "defaultValue": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+            "isExpression": false
+          }
+        },
+        "bindingMetadata": {
+          "activityName": "Get Report Metadata",
+          "bindingsVersion": "2.2",
+          "solutionsSupport": "true",
+          "connector": "uipath-salesforce-sfdc",
+          "useConnectionService": "true"
+        },
+        "resourceKind": "Connection",
+        "resourceType": "uipath-salesforce-sfdc",
+        "resourceKey": "322b8267-ffd6-4036-bd0a-d5557eebb5fa",
+        "resourceName": "logesh.velu@uipath.com",
+        "folderKey": "266a0d11-5995-5740-50a6-d54ca13f62c8"
+      },
+      {
+        "bindingType": "Connection",
+        "bindingKey": "e6566513-4ace-47bb-9321-9b838bedef98",
+        "bindingValues": {
+          "connectionId": {
+            "defaultValue": "e6566513-4ace-47bb-9321-9b838bedef98",
+            "isExpression": false
+          }
+        },
+        "bindingMetadata": {
+          "activityName": "Create Entity Record",
+          "bindingsVersion": "2.2",
+          "solutionsSupport": "true",
+          "connector": "uipath-uipath-dataservice",
+          "useConnectionService": "true"
+        },
+        "resourceKind": "Connection",
+        "resourceType": "uipath-uipath-dataservice",
+        "resourceKey": "e6566513-4ace-47bb-9321-9b838bedef98",
+        "resourceName": "sarah.abbett@uipath.com",
+        "folderKey": "266a0d11-5995-5740-50a6-d54ca13f62c8"
+      }
+    ],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Api",
+      "name": "SalesforceAccountSync",
+      "package": {
+        "key": "352b4bef-cbc9-47cd-9559-95ebcae0b8ed"
+      },
+      "packageName": "LicenseUtilizationAutomation.api.SalesforceAccountSync",
+      "targetFrameworkValue": "Portable",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180
+    },
+    "locks": [],
+    "key": "d9bc397f-7deb-487c-8d57-58392716af97",
+    "files": []
+  }
+}
